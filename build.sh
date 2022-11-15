@@ -21,9 +21,9 @@ export CLANG_VERSION=clang-4691093
 export PATH=$TOOLCHAIN_DIR/bin/:$CLANG_DIR/$CLANG_VERSION/bin:$MKDTBOIMG_DIR:$AIK_DIR:$PATH
 export CROSS_COMPILE=$TOOLCHAIN_DIR/bin/aarch64-linux-android-
 export LD_LIBRARY_PATH=$TOOLCHAIN_DIR/aarch64-linux-gnu/lib64
-export OPPO_TARGET_DEVICE=MSM_19781
-export TARGET_PRODUCT=msmnile
-export DEFCONFIG=vendor/sm8150-perf_defconfig
+export OPPO_TARGET_DEVICE=SM6115
+export TARGET_PRODUCT=citrus-global
+export DEFCONFIG=vendor/citrus-perf_defconfig
 #export DEFCONFIG=defconfig
 export DTC_EXT=$DTC_DIR/dtc
 
